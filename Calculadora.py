@@ -12,6 +12,8 @@ class Calculadora:
         else:
             return a / b
     def sqrt(self, n):
+        if n < 0:
+            return "error"
         x = n /2
 
         while True:
